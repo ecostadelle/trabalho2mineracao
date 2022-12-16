@@ -1,0 +1,1154 @@
+@relation 'planilha_analise-weka.filters.unsupervised.attribute.Remove-R3-8,10-13-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last'
+
+@attribute ano {2013,2014,2015,2016,2017,2018,2019,2020}
+@attribute periodo {1,2,3,4}
+@attribute qtd_disciplinas {1,2,3,4,6,12,15,16,17,18,19,21}
+@attribute resultado_final {Aprovado,Reprovado}
+@attribute situacao_atual {Concluído,'Transferido Externo',Evasão,Matriculado,Cancelado,Jubilado,Formado}
+@attribute grupo {A,B,C,D,E}
+
+@data
+2013,2,15,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,A
+2013,3,12,Aprovado,'Transferido Externo',C
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Evasão,B
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,B
+2013,3,2,Reprovado,'Transferido Externo',D
+2013,3,12,Aprovado,'Transferido Externo',C
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,A
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Reprovado,'Transferido Externo',D
+2013,2,3,Reprovado,'Transferido Externo',D
+2013,2,15,Aprovado,'Transferido Externo',B
+2013,2,4,Reprovado,'Transferido Externo',E
+2013,2,15,Aprovado,'Transferido Externo',B
+2013,2,4,Reprovado,'Transferido Externo',E
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,2,Reprovado,'Transferido Externo',D
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Reprovado,Evasão,D
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,'Transferido Externo',C
+2013,1,15,Aprovado,'Transferido Externo',B
+2013,1,15,Aprovado,Concluído,A
+2013,3,12,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,'Transferido Externo',B
+2013,1,15,Aprovado,Evasão,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Reprovado,Evasão,D
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,C
+2013,1,15,Reprovado,Evasão,D
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,C
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Reprovado,'Transferido Externo',E
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,'Transferido Externo',C
+2013,1,15,Aprovado,Concluído,A
+2013,1,6,Reprovado,'Transferido Externo',E
+2013,1,15,Aprovado,Evasão,B
+2013,1,15,Reprovado,'Transferido Externo',E
+2013,1,15,Aprovado,'Transferido Externo',C
+2013,1,15,Aprovado,'Transferido Externo',C
+2013,1,15,Aprovado,'Transferido Externo',C
+2013,1,15,Reprovado,Concluído,D
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Reprovado,'Transferido Externo',D
+2013,1,15,Reprovado,Evasão,E
+2013,1,15,Aprovado,'Transferido Externo',B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Reprovado,'Transferido Externo',D
+2013,1,15,Aprovado,'Transferido Externo',B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,C
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,3,Reprovado,'Transferido Externo',D
+2013,1,15,Aprovado,'Transferido Externo',B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Aprovado,Concluído,B
+2013,1,15,Reprovado,'Transferido Externo',D
+2013,1,15,Aprovado,'Transferido Externo',B
+2013,1,15,Reprovado,'Transferido Externo',D
+2013,1,1,Reprovado,'Transferido Externo',D
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,'Transferido Externo',B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,2,15,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Evasão,B
+2013,3,12,Aprovado,Concluído,A
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,A
+2013,3,12,Aprovado,Concluído,A
+2013,3,12,Aprovado,Concluído,A
+2013,3,12,Aprovado,Concluído,A
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Evasão,B
+2013,3,19,Aprovado,Evasão,?
+2013,3,12,Aprovado,Concluído,B
+2013,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Evasão,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,A
+2014,2,1,Reprovado,'Transferido Externo',D
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,A
+2014,3,12,Aprovado,Concluído,A
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,2,15,Aprovado,Evasão,B
+2014,3,12,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Evasão,B
+2014,2,15,Aprovado,Concluído,B
+2014,1,15,Reprovado,Evasão,E
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,1,15,Reprovado,Evasão,D
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Evasão,B
+2014,1,15,Reprovado,'Transferido Externo',E
+2014,1,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,2,15,Aprovado,'Transferido Externo',B
+2014,2,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',B
+2014,2,15,Aprovado,'Transferido Externo',B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,'Transferido Externo',C
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,2,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,2,15,Aprovado,'Transferido Externo',B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,A
+2014,3,12,Aprovado,Concluído,B
+2014,3,12,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,C
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Evasão,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Evasão,B
+2014,4,15,Aprovado,Evasão,C
+2014,4,15,Aprovado,Concluído,B
+2014,4,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Evasão,C
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,Concluído,C
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Reprovado,'Transferido Externo',D
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Reprovado,'Transferido Externo',D
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,Concluído,C
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Reprovado,Concluído,D
+2014,1,15,Aprovado,Evasão,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Reprovado,Concluído,D
+2014,1,15,Reprovado,Concluído,D
+2014,1,15,Aprovado,'Transferido Externo',B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Evasão,C
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Reprovado,'Transferido Externo',E
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,Concluído,C
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Reprovado,Concluído,D
+2014,1,15,Aprovado,Evasão,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,'Transferido Externo',B
+2014,1,15,Reprovado,'Transferido Externo',D
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,Concluído,C
+2014,1,15,Reprovado,'Transferido Externo',E
+2014,1,15,Reprovado,Concluído,D
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Reprovado,'Transferido Externo',E
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Reprovado,'Transferido Externo',D
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,Concluído,B
+2014,1,15,Aprovado,'Transferido Externo',C
+2014,1,15,Aprovado,Concluído,C
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Evasão,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,1,16,Aprovado,Evasão,C
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Evasão,B
+2015,2,17,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,C
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,3,12,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,4,15,Aprovado,Concluído,B
+2015,2,17,Reprovado,Evasão,D
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,C
+2015,1,16,Aprovado,'Transferido Externo',C
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,1,16,Reprovado,'Transferido Externo',D
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Reprovado,'Transferido Externo',D
+2015,2,17,Aprovado,Concluído,C
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,1,16,Reprovado,Concluído,D
+2015,2,17,Aprovado,Evasão,B
+2015,2,17,Aprovado,Concluído,B
+2015,1,16,Reprovado,Concluído,D
+2015,1,16,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,C
+2015,2,17,Aprovado,Concluído,B
+2015,1,16,Aprovado,Concluído,B
+2015,2,17,Aprovado,Evasão,C
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,1,16,Aprovado,'Transferido Externo',C
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,1,16,Reprovado,Concluído,D
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,1,16,Aprovado,'Transferido Externo',B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,2,17,Aprovado,Concluído,B
+2015,1,16,Aprovado,Concluído,C
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Reprovado,Matriculado,E
+2015,1,16,Reprovado,Concluído,D
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Aprovado,Concluído,C
+2015,1,16,Aprovado,Concluído,C
+2015,1,16,Reprovado,Evasão,E
+2015,1,16,Reprovado,Matriculado,E
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Aprovado,'Transferido Externo',C
+2015,1,16,Aprovado,Concluído,B
+2015,1,15,Aprovado,'Transferido Externo',C
+2015,1,16,Aprovado,'Transferido Externo',B
+2015,1,16,Reprovado,Evasão,E
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Aprovado,Concluído,B
+2015,1,15,Reprovado,Cancelado,E
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Reprovado,Concluído,D
+2015,1,16,Reprovado,Concluído,D
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Reprovado,'Transferido Externo',D
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Aprovado,Concluído,B
+2015,1,16,Aprovado,'Transferido Externo',B
+2015,1,16,Aprovado,'Transferido Externo',C
+2015,1,16,Aprovado,'Transferido Externo',B
+2015,1,16,Reprovado,Concluído,D
+2015,1,16,Aprovado,'Transferido Externo',B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Reprovado,Evasão,D
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,2,18,Reprovado,Evasão,D
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Reprovado,Evasão,E
+2016,3,19,Aprovado,Concluído,B
+2016,4,17,Aprovado,Concluído,?
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,C
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,4,15,Aprovado,Concluído,B
+2016,2,18,Reprovado,Evasão,E
+2016,3,19,Aprovado,Concluído,C
+2016,3,19,Aprovado,Concluído,C
+2016,3,19,Aprovado,Concluído,C
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,C
+2016,1,16,Aprovado,'Transferido Externo',B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,2,18,Aprovado,'Transferido Externo',B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,A
+2016,1,16,Aprovado,Concluído,B
+2016,3,19,Reprovado,Evasão,D
+2016,3,19,Aprovado,Concluído,B
+2016,1,16,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,C
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,B
+2016,3,19,Reprovado,Evasão,D
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,2,18,Aprovado,'Transferido Externo',C
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,1,16,Aprovado,Concluído,C
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,A
+2016,2,18,Aprovado,'Transferido Externo',C
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,3,19,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,C
+2016,2,18,Aprovado,Concluído,B
+2016,1,16,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,A
+2016,2,18,Aprovado,'Transferido Externo',B
+2016,2,18,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,A
+2016,2,18,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,B
+2016,1,16,Aprovado,Concluído,C
+2016,1,16,Aprovado,Concluído,C
+2016,2,18,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,C
+2016,2,18,Aprovado,Concluído,B
+2016,1,16,Reprovado,'Transferido Externo',D
+2016,2,18,Aprovado,Concluído,A
+2016,2,18,Aprovado,Concluído,B
+2016,2,18,Aprovado,'Transferido Externo',C
+2016,2,18,Reprovado,'Transferido Externo',E
+2016,1,16,Aprovado,Concluído,B
+2016,2,18,Aprovado,Concluído,B
+2016,1,16,Reprovado,'Transferido Externo',E
+2016,1,16,Aprovado,Concluído,C
+2016,1,16,Aprovado,'Transferido Externo',B
+2016,1,16,Reprovado,Matriculado,D
+2016,1,16,Aprovado,'Transferido Externo',B
+2016,1,16,Aprovado,Concluído,B
+2016,1,16,Reprovado,'Transferido Externo',D
+2016,1,16,Aprovado,Concluído,B
+2016,1,16,Reprovado,'Transferido Externo',E
+2016,1,16,Reprovado,Concluído,D
+2016,1,16,Aprovado,Concluído,B
+2016,1,16,Aprovado,Concluído,B
+2016,1,16,Reprovado,Jubilado,D
+2016,1,16,Reprovado,'Transferido Externo',D
+2016,1,16,Reprovado,Concluído,D
+2016,1,16,Aprovado,'Transferido Externo',B
+2016,1,16,Aprovado,Concluído,B
+2016,1,16,Reprovado,Concluído,D
+2016,1,16,Aprovado,Concluído,B
+2016,1,16,Reprovado,'Transferido Externo',D
+2016,1,16,Reprovado,Concluído,D
+2016,1,16,Reprovado,Evasão,D
+2016,1,16,Reprovado,'Transferido Externo',D
+2016,1,16,Reprovado,'Transferido Externo',D
+2016,1,16,Reprovado,'Transferido Externo',D
+2016,1,16,Aprovado,Concluído,B
+2017,2,18,Aprovado,'Transferido Externo',C
+2017,3,17,Reprovado,'Transferido Externo',D
+2017,2,18,Aprovado,Concluído,C
+2017,2,18,Aprovado,Concluído,C
+2017,3,17,Aprovado,Concluído,B
+2017,3,17,Aprovado,Concluído,B
+2017,3,17,Reprovado,'Transferido Externo',D
+2017,2,18,Aprovado,Concluído,C
+2017,3,17,Reprovado,'Transferido Externo',D
+2017,3,17,Reprovado,Concluído,D
+2017,3,17,Aprovado,Concluído,B
+2017,2,18,Reprovado,Concluído,D
+2017,3,17,Aprovado,Concluído,B
+2017,3,17,Aprovado,Concluído,B
+2017,3,17,Aprovado,Concluído,C
+2017,3,17,Aprovado,Concluído,A
+2017,3,17,Aprovado,Concluído,B
+2017,3,17,Aprovado,Concluído,A
+2017,3,17,Aprovado,Concluído,B
+2017,3,17,Aprovado,Concluído,B
+2017,3,17,Aprovado,Concluído,C
+2017,2,18,Reprovado,Concluído,D
+2017,2,18,Reprovado,Concluído,D
+2017,3,17,Aprovado,Concluído,B
+2017,3,17,Aprovado,Concluído,C
+2017,3,17,Aprovado,Concluído,B
+2017,1,16,Reprovado,'Transferido Externo',E
+2017,3,17,Aprovado,Concluído,B
+2017,3,17,Aprovado,Concluído,C
+2017,3,17,Reprovado,'Transferido Externo',E
+2017,2,18,Reprovado,'Transferido Externo',E
+2017,2,18,Aprovado,Concluído,C
+2017,3,17,Aprovado,Concluído,B
+2017,2,18,Aprovado,Concluído,C
+2017,2,18,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,Matriculado,D
+2017,2,18,Reprovado,'Transferido Externo',D
+2017,2,18,Aprovado,Concluído,B
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,2,18,Aprovado,Concluído,B
+2017,1,16,Aprovado,Concluído,C
+2017,2,18,Aprovado,Concluído,C
+2017,2,18,Aprovado,Concluído,C
+2017,1,16,Aprovado,Jubilado,B
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Concluído,C
+2017,2,18,Reprovado,'Transferido Externo',D
+2017,2,18,Aprovado,Concluído,B
+2017,1,16,Aprovado,Concluído,B
+2017,2,18,Aprovado,Concluído,B
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Concluído,C
+2017,1,16,Aprovado,Evasão,C
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,2,18,Aprovado,Concluído,B
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,Concluído,D
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Aprovado,Concluído,C
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Concluído,C
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,Concluído,D
+2017,1,16,Reprovado,Concluído,D
+2017,1,16,Reprovado,Concluído,D
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Aprovado,Concluído,C
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Aprovado,Matriculado,C
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,Cancelado,D
+2017,1,16,Aprovado,Concluído,C
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Concluído,C
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Concluído,A
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Matriculado,B
+2017,1,16,Reprovado,Concluído,D
+2017,1,16,Reprovado,'Transferido Externo',E
+2017,1,16,Reprovado,'Transferido Externo',E
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Aprovado,Concluído,B
+2017,1,16,Aprovado,Concluído,C
+2017,1,16,Reprovado,'Transferido Externo',D
+2017,1,16,Reprovado,Concluído,D
+2018,3,17,Aprovado,Concluído,B
+2018,3,17,Aprovado,Concluído,B
+2018,3,17,Aprovado,Concluído,B
+2018,3,17,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,3,17,Aprovado,Concluído,B
+2018,3,17,Aprovado,Concluído,B
+2018,1,16,Reprovado,Matriculado,E
+2018,3,17,Aprovado,Concluído,B
+2018,3,17,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,C
+2018,3,17,Aprovado,Concluído,A
+2018,3,17,Aprovado,Concluído,B
+2018,2,18,Aprovado,Jubilado,C
+2018,2,18,Aprovado,Concluído,C
+2018,3,17,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,3,17,Aprovado,Concluído,A
+2018,2,18,Aprovado,Concluído,C
+2018,2,18,Reprovado,Evasão,D
+2018,3,17,Aprovado,Concluído,A
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,2,18,Aprovado,Concluído,B
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,1,16,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,C
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,A
+2018,2,18,Aprovado,Matriculado,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,1,16,Reprovado,Cancelado,D
+2018,2,18,Aprovado,Concluído,C
+2018,2,18,Aprovado,Concluído,B
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,'Transferido Externo',C
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,2,18,Aprovado,Concluído,B
+2018,1,16,Aprovado,'Transferido Externo',C
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,2,18,Aprovado,Matriculado,B
+2018,1,16,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,2,18,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Aprovado,Concluído,C
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Aprovado,Formado,B
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Aprovado,Matriculado,A
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,'Transferido Externo',C
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Reprovado,'Transferido Externo',E
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Aprovado,Formado,B
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Matriculado,C
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Reprovado,Jubilado,D
+2018,1,16,Aprovado,'Transferido Externo',C
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Matriculado,A
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,1,16,Aprovado,Formado,C
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Aprovado,Matriculado,A
+2018,1,16,Aprovado,'Transferido Externo',C
+2018,1,16,Aprovado,'Transferido Externo',A
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,1,16,Aprovado,Concluído,A
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,'Transferido Externo',C
+2018,1,16,Aprovado,Matriculado,B
+2018,1,16,Aprovado,Concluído,B
+2018,1,16,Aprovado,'Transferido Externo',B
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Reprovado,'Transferido Externo',D
+2018,1,16,Aprovado,Matriculado,B
+2018,2,21,Reprovado,'Transferido Externo',D
+2018,3,19,Aprovado,Concluído,A
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,C
+2019,3,17,Aprovado,Concluído,B
+2019,1,16,Reprovado,Matriculado,D
+2019,3,17,Aprovado,Concluído,C
+2019,3,17,Reprovado,Jubilado,E
+2019,3,17,Aprovado,Concluído,C
+2019,3,17,Aprovado,Concluído,C
+2019,3,17,Aprovado,Concluído,C
+2019,3,17,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,C
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,2,18,Aprovado,'Transferido Externo',C
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,C
+2019,2,18,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,C
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,C
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Matriculado,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,2,18,Reprovado,'Transferido Externo',D
+2019,2,18,Reprovado,'Transferido Externo',D
+2019,3,17,Aprovado,Matriculado,B
+2019,2,18,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,3,17,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,A
+2019,2,18,Aprovado,Concluído,A
+2019,2,18,Aprovado,Matriculado,B
+2019,2,18,Aprovado,Concluído,C
+2019,2,18,Aprovado,Matriculado,C
+2019,2,18,Aprovado,Concluído,A
+2019,2,18,Reprovado,Formado,D
+2019,2,18,Aprovado,Matriculado,B
+2019,2,18,Aprovado,Concluído,A
+2019,2,18,Aprovado,Matriculado,B
+2019,2,18,Aprovado,Concluído,A
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,C
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Reprovado,'Transferido Externo',D
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Reprovado,Matriculado,D
+2019,2,18,Reprovado,Formado,D
+2019,2,18,Aprovado,Matriculado,B
+2019,2,18,Aprovado,Matriculado,C
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Matriculado,C
+2019,2,16,Reprovado,'Transferido Externo',D
+2019,2,18,Aprovado,Matriculado,C
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,A
+2019,2,18,Aprovado,Concluído,B
+2019,1,16,Reprovado,Jubilado,D
+2019,2,18,Reprovado,'Transferido Externo',D
+2019,2,16,Reprovado,'Transferido Externo',D
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Matriculado,B
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Matriculado,A
+2019,2,18,Aprovado,Matriculado,B
+2019,2,18,Aprovado,Concluído,B
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,2,18,Reprovado,Formado,D
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Reprovado,Matriculado,D
+2019,2,18,Aprovado,Concluído,A
+2019,2,18,Aprovado,Matriculado,B
+2019,2,18,Reprovado,'Transferido Externo',D
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Matriculado,B
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,2,18,Reprovado,'Transferido Externo',D
+2019,2,18,Aprovado,Concluído,A
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Aprovado,Matriculado,C
+2019,2,18,Aprovado,Concluído,B
+2019,2,18,Reprovado,Matriculado,D
+2019,1,16,Aprovado,'Transferido Externo',C
+2019,1,16,Aprovado,Matriculado,B
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Formado,A
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,'Transferido Externo',C
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Aprovado,'Transferido Externo',C
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Matriculado,C
+2019,1,16,Aprovado,Matriculado,B
+2019,1,16,Aprovado,Matriculado,B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Matriculado,B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Aprovado,Formado,A
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Reprovado,'Transferido Externo',E
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Matriculado,B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Aprovado,'Transferido Externo',A
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Formado,C
+2019,1,16,Aprovado,Matriculado,?
+2019,1,16,Reprovado,Matriculado,D
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Formado,A
+2019,1,16,Reprovado,Matriculado,D
+2019,1,16,Aprovado,Matriculado,B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Reprovado,Matriculado,D
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Aprovado,Formado,C
+2019,1,16,Aprovado,Formado,C
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,Matriculado,C
+2019,1,16,Aprovado,'Transferido Externo',C
+2019,1,16,Reprovado,'Transferido Externo',E
+2019,1,16,Aprovado,Matriculado,B
+2019,1,16,Reprovado,'Transferido Externo',E
+2019,1,16,Reprovado,Matriculado,D
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Reprovado,Matriculado,D
+2019,1,16,Reprovado,'Transferido Externo',D
+2019,1,16,Aprovado,Formado,B
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Reprovado,Matriculado,E
+2019,1,16,Aprovado,'Transferido Externo',B
+2019,1,16,Aprovado,Matriculado,C
+2019,1,16,Reprovado,'Transferido Externo',D
+2020,3,17,Reprovado,Jubilado,D
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Reprovado,'Transferido Externo',D
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,A
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Matriculado,B
+2020,2,17,Aprovado,Formado,C
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Matriculado,B
+2020,3,17,Aprovado,Concluído,A
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,A
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,2,17,Aprovado,Matriculado,B
+2020,2,17,Aprovado,Formado,C
+2020,3,17,Aprovado,Matriculado,C
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Matriculado,C
+2020,3,17,Reprovado,Matriculado,D
+2020,3,17,Aprovado,Concluído,A
+2020,3,17,Aprovado,Concluído,B
+2020,1,16,Aprovado,Jubilado,C
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Matriculado,A
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Matriculado,B
+2020,3,17,Aprovado,Matriculado,B
+2020,3,17,Aprovado,Concluído,A
+2020,2,17,Aprovado,Formado,B
+2020,3,17,Aprovado,Concluído,A
+2020,2,17,Aprovado,Matriculado,?
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Aprovado,Concluído,B
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,3,17,Aprovado,Concluído,A
+2020,3,17,Aprovado,Concluído,B
+2020,3,17,Reprovado,Matriculado,D
+2020,3,17,Aprovado,Concluído,B
+2020,2,17,Aprovado,Matriculado,B
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Matriculado,B
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Formado,A
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Formado,B
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,'Transferido Externo',C
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Formado,A
+2020,2,17,Reprovado,Matriculado,D
+2020,2,17,Reprovado,Matriculado,D
+2020,2,17,Reprovado,Matriculado,D
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Matriculado,C
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Formado,B
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Reprovado,Matriculado,D
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Matriculado,C
+2020,1,16,Aprovado,Matriculado,B
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Formado,B
+2020,1,16,Aprovado,Matriculado,C
+2020,2,17,Reprovado,Matriculado,D
+2020,2,17,Aprovado,Formado,B
+2020,1,16,Reprovado,Matriculado,D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Formado,B
+2020,1,16,Aprovado,'Transferido Externo',C
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,Matriculado,C
+2020,2,17,Aprovado,'Transferido Externo',C
+2020,2,17,Reprovado,Matriculado,D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,Matriculado,B
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Reprovado,'Transferido Externo',D
+2020,2,17,Aprovado,Formado,B
+2020,1,16,Reprovado,Matriculado,D
+2020,1,16,Aprovado,'Transferido Externo',C
+2020,2,17,Aprovado,Formado,B
+2020,2,17,Aprovado,'Transferido Externo',C
+2020,1,16,Reprovado,Matriculado,D
+2020,2,17,Reprovado,Matriculado,D
+2020,1,16,Aprovado,'Transferido Externo',C
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,A
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,C
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,Matriculado,A
+2020,1,16,Reprovado,Matriculado,D
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,C
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,C
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,C
+2020,1,16,Reprovado,Matriculado,D
+2020,1,16,Aprovado,Matriculado,A
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,Matriculado,C
+2020,1,16,Aprovado,Matriculado,A
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,Matriculado,A
+2020,1,16,Reprovado,Matriculado,D
+2020,1,16,Reprovado,Matriculado,D
+2020,1,16,Aprovado,Matriculado,C
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Reprovado,Matriculado,D
+2020,1,16,Aprovado,Matriculado,C
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,Matriculado,C
+2020,1,16,Aprovado,'Transferido Externo',B
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,'Transferido Externo',C
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Reprovado,Matriculado,D
+2020,1,16,Reprovado,Matriculado,D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,'Transferido Externo',B
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Aprovado,Matriculado,B
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Reprovado,'Transferido Externo',D
+2020,1,16,Aprovado,Matriculado,B
